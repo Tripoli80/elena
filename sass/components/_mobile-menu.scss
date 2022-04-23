@@ -58,7 +58,7 @@
 }
 .mobile__contacts__number{
     font-weight: 500;
-    font-size: 34px;
+    font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
 
@@ -74,10 +74,30 @@
     color:var(--primary-text-color);
 }
 .socials{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+.social-item{
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.socials__link{
+    padding-right: 10px;
+
     font-weight: 500;
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
 
     color: var(--accent-color);
+
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.socials__item:last-child .socials__link{
+    padding: 0;
+    border: none;
 }

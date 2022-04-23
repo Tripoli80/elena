@@ -2,13 +2,19 @@
     display:flex;
     align-items: center;
     margin-left: 90px;
-    text-decoration: none;
+    
+
     @media screen and (max-width:767px) {
         margin:0;
+        width: 100vw;
+        justify-content: space-between;
         
     }
 }
 .nav__list{
+    text-decoration: none;
+    display: flex;
+
     @media screen and (max-width:767px) {
         display: none;
         

@@ -272,7 +272,7 @@ img {
   margin-bottom: 64px;
 }
 
-.mobile__contacts__number {
+.mobile__contacts__phone {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.17;
@@ -280,11 +280,19 @@ img {
   color: var(--accent-color);
 }
 
-.mobile__contacts__mail {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.18;
-  letter-spacing: 0.02em;
+@media screen and (min-width: 480px) {
+  .mobile__contacts__phone {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .mobile__contacts__link:first-child {
+    font-size: 34px;
+  }
+}
+
+.mobile__contacts__link:last-child {
   color: var(--primary-text-color);
 }
 

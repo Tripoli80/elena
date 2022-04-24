@@ -12,6 +12,11 @@
         
     }
 }
+.menu__btn:hover,
+.menu__btn:focus .menu__icon{
+    fill: var(--accent-color);
+}
+
 .menu__icon--close{
     opacity: 0;
 }
@@ -92,7 +97,7 @@
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }  
-  
+
 .socials{
     display: flex;
     flex-wrap: wrap;

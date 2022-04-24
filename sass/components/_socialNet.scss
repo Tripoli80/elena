@@ -4,6 +4,10 @@
     justify-content: center;
     margin-top: 16px;
    
+    @media screen and (max-width:767px) {
+        margin-top: 0;
+        
+    }
 }
 .social-net__item{
     display: flex;
@@ -29,6 +33,12 @@
 
     &:hover,&:focus{ fill:var(--primary-white-color);
         background-color:var(--accent-color);}
+    
+        @media screen and (min-width:480px){
+            width: 44px;
+            height: 44px;
+        }   
+
     
     }
 

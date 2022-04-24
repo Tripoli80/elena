@@ -7,7 +7,7 @@
     border: none;
     background-color: transparent;
     z-index: 9;
-
+    cursor: pointer;
     @media screen and(min-width:768px) {display: none;
         
     }
@@ -39,8 +39,6 @@
     opacity: 0;
     transform: translateX(100%);
     transition: transform 250 ms linear;
-   
-   
 }
 .mobile.is-open{
     opacity: 1;
@@ -78,22 +76,23 @@
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-
     color: var(--accent-color);
    
 }      
 
 @media screen and (min-width: 480px) {
-    .mobile__contacts__link:first-child {
-      font-size: 34px;
-    };
+    .mobile__contacts__phone{
+      font-size: 34px;}
+    }
 
 .mobile__contacts__mail{
     font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-}    
+    color: var(--primary-text-color);
+}  
+  
 .socials{
     display: flex;
     flex-wrap: wrap;
@@ -118,7 +117,8 @@
 
     border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
-.socials__item:last-child .socials__link{
+.socials__item:last-child .socials__link
+{
     padding: 0;
-    border: none;
+    border:none;
 }

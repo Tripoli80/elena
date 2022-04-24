@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
 }
 
+.body.no-scroll {
+  overflow-y: hidden;
+}
+
 .list {
   list-style: none;
   margin: 0px;
@@ -204,6 +208,7 @@ img {
   border: none;
   background-color: transparent;
   z-index: 9;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -286,13 +291,11 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .mobile__contacts__link:first-child {
-    font-size: 34px;
-  }
-}
-
-.mobile__contacts__link:last-child {
+.mobile__contacts__mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 

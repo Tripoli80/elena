@@ -14,23 +14,16 @@
 }
 .add__post{
     margin-bottom: 9px;
-    font-size: 8px;
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color:var(--primary-white-color);
     
-    @media screen and(min-width:480px) {
-        font-size: 10px;  
-        
-    }
-    @media screen and(min-width:767px) {
-        font-size: 14px;  
-        
-    }
+   
 }
 
 .add__contacts{
-    font-size: 8px;
+    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -42,14 +35,7 @@
     }
 
     &:hover,&:focus{text-decoration: underline;}
-    @media screen and(min-width:480px) {
-        font-size: 10px;  
-        
-    }
-    @media screen and(min-width:767px) {
-        font-size: 14px;  
-        
-    }
+    
 }
 .join{
     display: flex;
@@ -63,21 +49,15 @@
 
 .join__title{
     display: block;
-    margin-bottom: 5px; 
-    margin-top: 5px;
+    margin-bottom: 20px; 
+    margin-top: 60px;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--primary-white-color);
 
-    @media screen and(min-width:1200px) {
-        font-size: 14px; 
-        margin-bottom: 20px;  
-        margin-top: 0;
-        
-    }
 }
 
 .join__item{

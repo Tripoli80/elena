@@ -1,16 +1,25 @@
-.footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color:var(--dark-background-color);
+// .footer{
+//     padding-top: 60px;
+//     padding-bottom: 60px;
+//     background-color:var(--dark-background-color);
 
-    @media screen and (max-width:767px){
-        display: none;
+//     @media screen and (max-width:767px){
+//         display: none;
         
-    }
-}
+//     }
+// }
+.footer-mobile__contacts{
 
+    @media screen and(min-width:768px) and (max-width:1199px){
+        margin-left: 76px;
+        margin-right: 165px;
+    }
+   
+}
 .add{
     font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 .add__post{
     margin-bottom: 9px;
@@ -40,6 +49,10 @@
 .join{
     display: flex;
     flex-direction:column ;
+    @media screen and(max-width:767px) {
+        margin-bottom: 60px;}
+
+
 
     @media screen and(min-width:1200px) {
         margin-left: 70px;
@@ -49,8 +62,6 @@
 
 .join__title{
     display: block;
-    margin-bottom: 20px; 
-    margin-top: 60px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

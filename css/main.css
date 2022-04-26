@@ -40,6 +40,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .section__title {
@@ -677,38 +679,45 @@ img {
   margin-left: 2px;
 }
 
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.features__container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .features__container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .features__list {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__item {
+  width: 450px;
+}
+
+.features__item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .features__image {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(100%/4)-30px;
   height: 120px;
   background: #F5F4FA;
   border-radius: 4px;
-  margin-bottom: 30px;
 }
 
-.features__icon {
-  display: block;
-  width: calc(100%/4)-30px;
-  height: 70px;
-}
-
-.features__item {
-  width: calc(100%/4)-30px;
-}
-
-.features__item:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .features__image {
+    margin-bottom: 30px;
+  }
 }
 
 .features__title {
@@ -719,6 +728,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  text-align: center;
 }
 
 .features__desс {
@@ -730,6 +740,12 @@ img {
 
 .activities {
   padding-bottom: 94px;
+}
+
+@media screen and (max-width: 1199px) {
+  .activities {
+    display: none;
+  }
 }
 
 .activities__list {

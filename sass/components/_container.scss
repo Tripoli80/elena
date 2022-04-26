@@ -24,7 +24,14 @@
 }
 .container__header{
     display: flex;
-    align-items: center;}
+    align-items: center;
+
+     @media screen and (min-width:768px) and (max-width:1199px){
+       justify-content: space-between;
+     }
+    }
+
+
   
 .footer__container{
   display: flex;

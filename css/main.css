@@ -82,7 +82,7 @@ img {
   align-items: center;
 }
 
-.footer-mobile__container {
+.footer__container {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -91,10 +91,17 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-mobile__container {
+  .footer__container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
@@ -181,12 +188,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-
-@media screen and (min-width: 1200px) {
-  .logo {
-    margin-right: 93px;
-  }
 }
 
 .logo__begin {
@@ -865,9 +866,17 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-mobile__contacts {
+  .footer__contacts {
     margin-left: 76px;
     margin-right: 165px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
   }
 }
 
@@ -883,6 +892,18 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-widh: 768px) {
+  .footer__list {
+    align-items: flex-start;
+  }
 }
 
 .add__contacts {
@@ -913,9 +934,17 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) and (min-width: 1199px) {
+  .join {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .join {
     margin-left: 70px;
+    margin-right: 93px;
   }
 }
 
@@ -951,8 +980,10 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .subscribe {
-    margin-left: 93px;
+  .subscribe__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -964,6 +995,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .subscribe__field {
+    flex-direction: row;
     align-items: baseline;
   }
 }

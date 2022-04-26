@@ -1,8 +1,10 @@
-.subscribe{
-    
+.subscribe__form{
+
     @media screen and(min-width:1200px) {
-        margin-left: 93px;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
     }
    
 }
@@ -11,6 +13,7 @@
     flex-direction: column;
     align-items: center;
     @media screen and(min-width:1200px) {
+        flex-direction:row;
         align-items: baseline;
     }
 }

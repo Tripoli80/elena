@@ -2,6 +2,8 @@
     position: absolute;
     top:50%;
     left:50%;
+    // max-width: calc(100%-30px);
+    // width: 100%;
     transform: translate(-50%,-50%) scale(1);
     z-index: 9;
 
@@ -31,7 +33,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    z-index: 10;
+    z-index: 9;
 
     display: flex;
     justify-content: center;

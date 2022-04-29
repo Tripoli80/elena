@@ -2,8 +2,8 @@
     position: absolute;
     top:50%;
     left:50%;
-    // max-width: calc(100%-30px);
-    // width: 100%;
+    max-width: calc(100%-30px);
+    width: 100%;
     transform: translate(-50%,-50%) scale(1);
     z-index: 9;
 
@@ -18,12 +18,7 @@
         
     }
 
-    // @media screen and( max-width:767px) {
-    //     top:93px;
-    //     left:15px;
-    //     max-width: 100%-30px;
-        
-    // }
+   
 }
 
 .backdrop.is-hidden.modal{

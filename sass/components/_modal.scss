@@ -5,11 +5,16 @@
     transform: translate(-50%,-50%) scale(1);
     z-index: 9;
 
-    width: 528px;
-    height: 581px;
+    
     
     background-color:rgba(255, 255, 255, 1);
     border-radius: 4px;
+
+    @media screen and(min-width:1200px) {
+        width: 528px;
+        height: 581px;
+        
+    }
 
     // @media screen and( max-width:767px) {
     //     top:93px;
@@ -26,7 +31,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    z-index: 9;
+    z-index: 10;
 
     display: flex;
     justify-content: center;

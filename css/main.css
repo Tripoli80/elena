@@ -20,6 +20,7 @@
   line-height: 1.18;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  overflow-y: scroll;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -495,7 +496,20 @@ img {
   opacity: 1;
   visibility: visible;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow-y: scroll;
+}
+
+@media screen and (max-width: 767px) {
+  .backdrop {
+    padding: 94px 15px;
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .backdrop {
+    padding: 207px 159px;
+    overflow-y: scroll;
+  }
 }
 
 .backdrop.is-hidden {
@@ -510,10 +524,15 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   z-index: 9;
-  width: 528px;
-  height: 581px;
   background-color: white;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .backdrop.is-hidden.modal {
@@ -524,7 +543,7 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
-  z-index: 9;
+  z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;

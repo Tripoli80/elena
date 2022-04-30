@@ -33,7 +33,9 @@
 
 .examples__link{
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -73,6 +75,7 @@
 }
 
 .examples__content{
+    flex-grow: 1;
     border:1px solid #ece2e2;
     border-top: none;
     padding: 20px 24px;

@@ -1,6 +1,12 @@
 .projects{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and(min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        
+    }
 }
 
 .projects__list{
@@ -8,9 +14,19 @@
     justify-content: center;
     margin-bottom: 50px;
   
+    @media screen  and (max-width:767px) {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 40px;
+    }
+
 }
 .project__item{
     list-style: none;
+
+    @media screen  and (max-width:767px){
+        margin-bottom: 15px;
+    }
 
     &:not(:last-child){
         margin-right: 8px;

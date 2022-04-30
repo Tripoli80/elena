@@ -25,14 +25,18 @@
     background-color: var(--accent-color);
     border:var(--accent-color);
 }
+
+
 .checkbox__text{
+    text-align: left;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
     color: #757575;
 }
 .checkbox__link{
-    display: block;
+    display: inline-block;
     color:var(--accent-color);
     margin-left: 2px;
 }

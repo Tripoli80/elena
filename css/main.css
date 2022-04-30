@@ -163,6 +163,8 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav__list {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -212,6 +214,12 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 35px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -385,7 +393,6 @@ img {
 
 .contacts {
   display: flex;
-  margin-left: auto;
 }
 
 @media screen and (max-width: 767px) {

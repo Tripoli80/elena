@@ -2,25 +2,25 @@
     position: absolute;
     top:50%;
     left:50%;
-    width: calc(100% - 40px);
-    height: calc(100% - 20px);
+    width: calc(100% - 60px);
+    max-height: calc(100% - 80px);
+    height: 100%;
     transform: translate(-50%,-50%) scale(1);
     z-index: 9;
+    overflow: scroll;
     
     background-color:rgba(255, 255, 255, 1);
     border-radius: 4px;
 
     @media screen and(min-width:768px) and(max-width:1199px){
         width: 450px;
-        height: 609px;}
+        max-height: 510px;}
 
 
     @media screen and(min-width:1200px) {
         width: 528px;
-        height: 581px;}
+        max-height: 581px;}
         
-
-   
 }
 
 .backdrop.is-hidden.modal{

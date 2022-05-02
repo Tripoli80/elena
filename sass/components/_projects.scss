@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    outline: 1px solid yellowgreen;
   
     @media screen  and (max-width:767px) {
         flex-wrap: wrap;
@@ -23,6 +24,7 @@
 }
 .project__item{
     list-style: none;
+    outline: 1px solid tomato;
 
     @media screen  and (max-width:767px){
         margin-bottom: 15px;

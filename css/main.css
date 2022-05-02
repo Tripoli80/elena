@@ -1332,14 +1332,27 @@ img {
 }
 
 .projects {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  display: block;
+}
+
+@media screen and (max-width767px) {
+  .projects {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .projects {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .projects {
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 50px;
   }
 }
 
@@ -1400,19 +1413,29 @@ img {
 }
 
 .examples {
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .examples {
+    padding-bottom: 94px;
+  }
+}
+
+.examples__list {
   outline: 1px solid blue;
   margin-top: -30px;
   margin-left: -30px;
 }
 
 @media screen and (max-width: 767px) {
-  .examples {
+  .examples__list {
     display: inline-block;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .examples {
+  .examples__list {
     display: flex;
     flex-wrap: wrap;
   }

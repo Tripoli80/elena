@@ -144,12 +144,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .nav {
-    margin-left: 90px;
-  }
-}
-
 .nav__list {
   text-decoration: none;
   display: flex;
@@ -395,6 +389,7 @@ img {
 
 .contacts {
   display: flex;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 767px) {

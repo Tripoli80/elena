@@ -798,7 +798,6 @@ img {
 @media screen and (max-width: 767px) {
   .features__list {
     display: inline-block;
-    margin-top: -30px;
   }
 }
 
@@ -807,11 +806,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    margin-top: -30px;
   }
 }
 
 .features__item {
-  margin-top: 30px;
   outline: 1px solid tomato;
 }
 
@@ -819,6 +818,7 @@ img {
   .features__item {
     flex-basis: calc(100%/2 - 30px);
     max-width: 354px;
+    margin-top: 30px;
     margin-left: 30px;
   }
 }
@@ -827,7 +827,14 @@ img {
   .features__item {
     flex-basis: calc(100%/4 - 30px);
     max-width: 270px;
+    margin-top: 30px;
     margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
@@ -876,6 +883,7 @@ img {
 }
 
 .activities {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 

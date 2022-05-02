@@ -6,7 +6,7 @@
 
 
 .footer__contacts{
-    
+    margin-bottom: 60px;
 
     @media screen and(min-width:768px) and (max-width:1199px){
         margin-left: 76px;
@@ -21,7 +21,7 @@
 .add{
     font-style: normal;
     margin-top: 20px;
-    margin-bottom: 60px;
+    
 
     @media screen and(min-width:1200px) {
         margin-bottom: 0;

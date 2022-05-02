@@ -11,15 +11,21 @@
 
 .projects__list{
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    
     outline: 1px solid yellowgreen;
   
     @media screen  and (max-width:767px) {
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin-bottom: 40px;
+        // margin-bottom: 30px;
     }
+
+    @media screen and(min-width:768px) {
+        justify-content: center;
+        // margin-bottom: 50px;
+        
+    }
+
 
 }
 .project__item{

@@ -1,6 +1,6 @@
 .projects{
     display: block;
-    @media screen and(max-width767px) {
+    @media screen and(max-width:767px) {
         padding-top: 60px;
         padding-bottom: 40px;
     }
@@ -9,7 +9,6 @@
         padding-top: 60px;
         padding-bottom: 30px;
     }
-    
 
     @media screen and(min-width:1200px) {
         padding-top: 94px;
@@ -21,25 +20,19 @@
 .projects__list{
     display: flex;
     
-    outline: 1px solid yellowgreen;
-  
     @media screen  and (max-width:767px) {
         flex-wrap: wrap;
         justify-content: flex-start;
-        // margin-bottom: 30px;
+       
     }
 
     @media screen and(min-width:768px) {
         justify-content: center;
-        // margin-bottom: 50px;
         
     }
-
-
 }
 .project__item{
     list-style: none;
-    outline: 1px solid tomato;
 
     @media screen  and (max-width:767px){
         margin-bottom: 15px;

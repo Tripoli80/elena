@@ -22,8 +22,6 @@
 }
 
 .features__item{
-    
-    outline: 1px solid tomato;
 
     @media screen and (min-width:768px) and (max-width:1199px) {
         flex-basis: calc(100%/2 - 30px);

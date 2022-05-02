@@ -1,5 +1,4 @@
 .examples{
-    // padding-top: 60px;
     padding-bottom: 60px;
 
     @media screen and(min-width:1200px) {
@@ -9,11 +8,7 @@
     }
 }
 
-
-
-
 .examples__list{
-    outline: 1px solid blue;
     margin-top: -30px;
     margin-left: -30px;
 
@@ -27,12 +22,11 @@
         flex-wrap: wrap;
         
     }
-    
 }
 
 .examples__item{
     border-bottom: 1px solid #eeeeee;
-    outline: 1px solid tomato;
+    
 
     @media screen and (min-width:768px) and (max-width:1199px) {
         flex-basis: calc(100%/2 - 30px);

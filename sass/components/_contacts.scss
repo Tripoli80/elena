@@ -11,6 +11,12 @@
         align-items:flex-start;
         gap: 10px;
     }
+    @media screen and (min-width:1200px) {
+        // flex-direction: column;
+        align-items:flex-start;
+        gap: 10px;
+    }
+
 }
 .contacts__item{
     list-style: none;

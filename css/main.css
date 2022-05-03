@@ -45,6 +45,22 @@ img {
   height: auto;
 }
 
+.section, .section__bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section, .section__bg {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.section__bg {
+  background-color: var(--secondary-background-color);
+}
+
 .section__title {
   margin-bottom: 30px;
   font-weight: 700;
@@ -778,13 +794,13 @@ img {
   margin-left: 2px;
 }
 
-.features__section {
+.section, .section__bg {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
-  .features__section {
+  .section, .section__bg {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -920,19 +936,6 @@ img {
   color: var(--primary-white-color);
 }
 
-.team {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--secondary-background-color);
-}
-
-@media screen and (min-width: 1200px) {
-  .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .team__list {
     display: inline-block;
@@ -1043,18 +1046,6 @@ img {
 
 .social-net_icon {
   display: block;
-}
-
-.clients {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-@media screen and (min-width: 1200px) {
-  .clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
 }
 
 .clients-list {
@@ -1324,31 +1315,6 @@ img {
   margin-left: 10px;
 }
 
-.projects {
-  display: block;
-}
-
-@media screen and (max-width: 767px) {
-  .projects {
-    padding-top: 60px;
-    padding-bottom: 40px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .projects {
-    padding-top: 60px;
-    padding-bottom: 30px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .projects {
-    padding-top: 94px;
-    padding-bottom: 50px;
-  }
-}
-
 .projects__list {
   display: flex;
 }
@@ -1401,16 +1367,6 @@ img {
   color: var(--primary-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
-
-.examples {
-  padding-bottom: 60px;
-}
-
-@media screen and (min-width: 1200px) {
-  .examples {
-    padding-bottom: 94px;
-  }
 }
 
 .examples__list {

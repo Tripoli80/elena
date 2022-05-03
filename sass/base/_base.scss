@@ -29,6 +29,22 @@
         max-width: 100%;
         height: auto;
     }
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and(min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}   
+.section__bg{
+    @extend .section;
+    background-color:var(--secondary-background-color);
+
+}
+
 .section__title{
     margin-bottom: 30px;
     font-weight: 700;

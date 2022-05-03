@@ -323,6 +323,7 @@ img {
   opacity: 0;
   transform: translateX(100%);
   transition: transform 250 ms linear;
+  z-index: 7;
 }
 
 .mobile.is-open {

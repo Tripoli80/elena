@@ -123,7 +123,8 @@ img {
   .footer__container {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: baseline;
   }
 }
 
@@ -1122,13 +1123,6 @@ img {
 
 .footer__contacts {
   margin-bottom: 60px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer__contacts {
-    margin-left: 76px;
-    margin-right: 165px;
-  }
 }
 
 @media screen and (min-width: 1200px) {

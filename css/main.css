@@ -34,6 +34,12 @@ ul {
   padding: 0;
 }
 
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .link {
   text-decoration: none;
   font: var(--main-font-family);
@@ -79,9 +85,10 @@ img {
 }
 
 .container {
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -149,8 +156,7 @@ img {
 }
 
 .nav {
-  display: flex;
-  align-items: center;
+  display: block;
 }
 
 @media screen and (max-width: 767px) {
@@ -162,8 +168,8 @@ img {
 }
 
 .nav__list {
-  text-decoration: none;
   display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -219,6 +225,7 @@ img {
 }
 
 .logo {
+  display: block;
   font-family: var(--secondary-font-family);
   font-size: 24px;
   font-weight: 700;

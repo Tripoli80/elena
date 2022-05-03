@@ -1,7 +1,8 @@
 .container{
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 
   @media screen and(max-width:767px) {
     width: 480px;
@@ -18,6 +19,11 @@
 }
 
 .container__header{
+    @media screen and(max-width:767px:) {
+      display: flex;
+      justify-content: space-between;
+    }
+
     display: flex;
     align-items: center;
 

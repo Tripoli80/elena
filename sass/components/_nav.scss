@@ -1,6 +1,6 @@
 .nav{
-    display:flex;
-    align-items: center;
+    display:block;
+    
     
     @media screen and (max-width:767px) {
         margin:0;
@@ -12,8 +12,9 @@
 }
 
 .nav__list{
-    text-decoration: none;
+    // text-decoration: none;
     display: flex;
+    align-items:center;
 
     @media screen and (max-width:767px) {
         display: none;
